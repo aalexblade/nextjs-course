@@ -6,6 +6,8 @@ export default function Home() {
     <main>
       <h1 className="text-xl">Home page {new Date().toTimeString()}</h1>
       <AddCompanyButton />
+      <AddCompanyButton />
+      <AddCompanyButton />
     </main>
   );
 }
