@@ -8,6 +8,7 @@ export default function Home() {
       <AddCompanyButton />
       <AddCompanyButton />
       <AddCompanyButton />
+      <AddCompanyButton />
     </main>
   );
 }
