@@ -1,18 +1,14 @@
-'use client';
-
+'uese client';
 import React from 'react';
-
 
 export interface ClientComponentProps {
   children?: React.ReactNode;
 }
 
 export default function ClientComponent({ children }: ClientComponentProps) {
-  console.log('Rendering ClientComponent on the client side');
   return (
-    <div>
-      <h2>Client Component</h2>
-      <div>{children}</div>
-    </div>
+    <main>
+      <h1 className="text-xl">Settings Page</h1>
+    </main>
   );
 }
