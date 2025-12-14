@@ -1,14 +1,11 @@
-'uese client';
 import React from 'react';
 
-export interface ClientComponentProps {
-  children?: React.ReactNode;
-}
+export interface PageProps {}
 
-export default function ClientComponent({ children }: ClientComponentProps) {
+export default function Page({}: PageProps) {
   return (
     <main>
-      <h1 className="text-xl">Dasbouard Page</h1>
+      <h1 className="text-xl">Dashboard Page</h1>
     </main>
   );
 }
